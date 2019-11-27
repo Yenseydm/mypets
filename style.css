@@ -1,3 +1,39 @@
+body{
+    background-image: url(images/texture.jpg);
+    background-size: repeat;
+}
+
 img {
-    width: 30%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 100px;
+ font-weight: 300;
+ line-height: 2in;
+ color: rgb(48, 87, 53);
+}
+
+h2 {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+ font-size: 40px;
+ font-weight: 300;
+ color: rgb(49, 88, 82);
+}
+
+.bio {
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 28px;
+ font-weight: 100;
+ color: white;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    display: block;
+    background-color:rgb(178, 204, 194);
 }
